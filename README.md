@@ -3,7 +3,6 @@
   <img src="https://datasciences.utoronto.ca/wp-content/uploads/2021/12/Logo.png" alt="Data Sciences Logo" height="50" ">
 </div>
 
-
 # UofT | DSI - Team Project: 🔎 Heart Failure Prediction
 
 ![Heart](https://blog.bswhealth.med/wp-content/uploads/2019/06/thoracic-aorta-2000x1200.jpg)
@@ -60,4 +59,7 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 
 ---
 
+[![Forks](https://img.shields.io/github/forks/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/network/members)
+[![Contributors](https://img.shields.io/github/contributors/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/graphs/contributors)
+[![Top Language](https://img.shields.io/github/languages/top/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction)
 
