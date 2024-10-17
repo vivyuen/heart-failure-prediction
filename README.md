@@ -1,4 +1,10 @@
-# DSI Team Project
+<div style="gap: 20px; max-height:200px;">
+  <img src="https://learn.utoronto.ca/themes/custom/de_theme/logo.svg" alt="UofT Logo" height="50">
+  <img src="https://datasciences.utoronto.ca/wp-content/uploads/2021/12/Logo.png" alt="Data Sciences Logo" height="50" ">
+</div>
+
+
+# UofT | DSI - Team Project: 🔎 Heart Failure Prediction
 
 ![Heart](https://blog.bswhealth.med/wp-content/uploads/2019/06/thoracic-aorta-2000x1200.jpg)
 
@@ -14,7 +20,7 @@
 - **[Calen Lau](https://github.com/514ccmtl)**
 - **[Juan Jimenez-Valero](https://github.com/actually-not-an-username)**
 - **[Sehroz Khan](https://github.com/sehroz)**
-- **Vivien Yuen**
+- **[Vivien Yuen](https://github.com/vivyuen)**
 
 ---
 
