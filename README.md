@@ -1,6 +1,6 @@
 # DSI Team Project
 
-![Heart](https://images.squarespace-cdn.com/content/v1/66539934f27321176a49f852/1716754760744-MVMSRAB1DJDW7Q5RMFOS/cardio-pulmonary.jpg)
+![Heart](https://blog.bswhealth.med/wp-content/uploads/2019/06/thoracic-aorta-2000x1200.jpg)
 
 ## Dataset - [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data)
 
