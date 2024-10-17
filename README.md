@@ -15,7 +15,7 @@
 
 ## Team Members
 
-- **Alfredo Natal**
+- **[Alfredo Natal](https://github.com/asnjunior)**
 - **[Calen Lau](https://github.com/514ccmtl)**
 - **[Juan Jimenez-Valero](https://github.com/actually-not-an-username)**
 - **[Sehroz Khan](https://github.com/sehroz)
