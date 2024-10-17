@@ -18,7 +18,9 @@
 - **Alfredo Natal**
 - **[Calen Lau](https://github.com/514ccmtl)**
 - **[Juan Jimenez-Valero](https://github.com/actually-not-an-username)**
-- **[Sehroz Khan](https://github.com/sehroz)**
+- **[Sehroz Khan](https://github.com/sehroz)
+  <a href="https://www.linkedin.com/in/sehroz" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="20"></a>
+  <a href="https://sehroz.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="Website" height="20"></a>**
 - **[Vivien Yuen](https://github.com/vivyuen)**
 
 ---
