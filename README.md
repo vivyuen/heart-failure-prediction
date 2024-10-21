@@ -30,6 +30,8 @@
 ```markdown
 |-- data
 |---- raw
+|-- src
+|---- notebooks
 |-- README.md
 |-- .gitignore
 ```
