@@ -7,13 +7,20 @@
 
 ![Heart](https://blog.bswhealth.med/wp-content/uploads/2019/06/thoracic-aorta-2000x1200.jpg)
 
-## Dataset - [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data)
+## 🔍 Research Question
+> Would demographic and baseline patient data be able to predict heart disease without performing stress tests?
 
-11 clinical features for predicting heart disease events.
+## 🎯 Project Overview
+This project analyzes a dataset containing 11 clinical features to predict heart disease events. Our goal is to develop a machine learning model that can effectively predict heart disease risk using only basic patient data, making screening more accessible.
+
+## 📊 Dataset
+We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data) which includes:
+* 11 clinical features (2 demographic and 9 medical measurements)
+* Binary classification target (Heart Disease: Yes/No)
 
 ---
 
-## Team Members
+## 👥 Team Members
 
 - **[Alfredo Natal](https://github.com/asnjunior)**
 - **[Calen Lau](https://github.com/514ccmtl)**
@@ -25,7 +32,7 @@
 
 ---
 
-## Project Folder Structure
+## 🏗️ Project Folder Structure
 
 ```markdown
 |-- data
@@ -38,7 +45,7 @@
 
 ----
 
-## Project Context
+## 💡 Project Context
 
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5 CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs, and this dataset contains 11 features that can be used to predict a possible heart disease.
 
@@ -46,7 +53,7 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 
 ---
 
-## Attribute Information
+## 📋 Attribute Information
 
 - **Age:** Age of the patient [years]
 - **Sex:** Sex of the patient [M: Male, F: Female]
@@ -66,4 +73,5 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 [![Forks](https://img.shields.io/github/forks/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/network/members)
 [![Contributors](https://img.shields.io/github/contributors/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/graphs/contributors)
 [![Top Language](https://img.shields.io/github/languages/top/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction)
+
 
