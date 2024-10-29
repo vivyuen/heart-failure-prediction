@@ -36,6 +36,7 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 
 ```markdown
 |-- data
+|---- figures
 |---- raw
 |-- src
 |---- notebooks
