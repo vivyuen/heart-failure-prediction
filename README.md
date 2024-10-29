@@ -45,7 +45,7 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 |-- .gitignore
 ```
 
-## Setup Instructions
+## 🏁 Setup Instructions
 
 1. Clone the repository:
 ```bash
@@ -55,10 +55,9 @@ cd heart-failure-prediction
 
 2. Create and activate conda environment:
 ```bash
-# Create environment from yml file
+
 conda env create -f environment.yml
 
-# Activate the environment
 conda activate heart-ml
 ```
 
