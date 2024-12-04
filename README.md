@@ -37,11 +37,15 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 ```markdown
 |-- data
 |---- figures
+|---- processed
 |---- raw
+|-- experiments
+|-- models
+|-- reports
 |-- src
 |---- notebooks
-|-- README.md
 |-- environment.yml 
+|-- README.md
 |-- .gitignore
 ```
 
