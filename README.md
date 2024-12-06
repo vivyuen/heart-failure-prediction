@@ -25,6 +25,15 @@
 
 ---
 
+## 🎧 Project Overview Audio
+Listen to an overview of our project:
+<audio controls>
+    <source src="./reports/Heart%20Failure%20Project%20Report%20(Audio).mp3" type="audio/mpeg">
+  Your browser does not support this audio element.
+</audio>
+
+---
+
 ## 🎯 Project Overview
 This project analyzes a dataset containing clinical and demographic features to predict heart disease events. The goal is to create a machine learning model capable of predicting the likelihood of heart disease using only basic patient data, improving accessibility to heart disease screening and potentially reducing mortality rates.
 
