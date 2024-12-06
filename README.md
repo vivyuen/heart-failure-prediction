@@ -10,25 +10,18 @@
 ## 🔍 Business Question
 > Can heart failure be accurately predicted using only demographic and baseline pre-stress test data, without the need to conduct exercise stress tests? The goal is to explore whether machine learning models can predict heart disease risk by utilizing only basic data available prior to stress testing.
 
-## Why Address This Problem?
+## 🛠️ Why Address This Problem?
 
-#### Potential Value to Predict Heart Failure Without Stress Tests
+### Value to Patients
+- **Accessible Screening**: Early detection for high-risk patients without stress testing, benefiting remote or resource-limited settings.
+- **Reduced Burden**: Stress tests can be physically and emotionally taxing; using baseline data streamlines diagnosis and supports proactive care.
 
-Using only basic patient data, early screening could help identify high-risk patients who need to be prioritized for stress tests. This could make heart disease screening more accessible, especially in resource-limited settings.
+### Value to Healthcare Providers
+- **Efficiency**: Baseline data models allow quick preliminary screening, saving time for acute cases.
+- **Data-Driven Decisions**: Machine learning insights enhance diagnostic accuracy and care quality.
 
-#### Value for the Patient
-
-Stress tests can be physically demanding, particularly for patients at higher risk for arrhythmias or cardiac events during the test. By predicting heart failure using baseline data, the physical and emotional burden is reduced, and the time to diagnosis is shortened. This approach allows for proactive interventions and lifestyle changes that can potentially reduce the progression of heart disease.
-
-For Canadians in remote or underserved areas where exercise stress testing might not be available, heart disease could be identified through routine physical examinations, enhancing healthcare access.
-
-#### Value for the Healthcare Provider
-
-A reduction in the need for non-invasive cardiac diagnostic tests (NITs) improves the efficiency of healthcare providers, particularly physicians. They can use baseline data models for quick preliminary screening, saving time for acute cases. Additionally, developing a machine learning model to predict heart failure provides data-driven insights, improving decision-making and quality of care.
-
-#### Value for the Healthcare System
-
-In Ontario, around 500,000 NITs are performed annually, costing approximately C$300 million. Over half of these are exercise stress tests. If machine learning models can reduce the overuse of NITs while maintaining high-quality care, significant financial and logistical benefits could be achieved.
+### Value to the Healthcare System
+- **Cost Savings**: Reducing unnecessary stress tests can save significant resources (e.g., Ontario spends ~C$300M annually on ~500,000 non-invasive cardiac tests).
 
 ---
 
@@ -117,6 +110,41 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 - **HeartDisease:** Target class [1: heart disease, 0: Normal]
 
 ---
+
+## 📋 Main Findings
+
+### Insights
+1. **Stress Testing**: Baseline data offers reasonable predictions, but incorporating stress tests enhances diagnostic accuracy.
+2. **Model Performance**: XGBoost outperformed other models, showing robust predictive ability. Neural Networks required more tuning but captured complex relationships.
+3. **Minimizing False Negatives**: Prioritized recall to reduce the risk of undiagnosed heart disease.
+
+### Challenges & Solutions
+- **Feature Encoding**: Used one-hot encoding for categorical variables like `ChestPainType`.
+- **New Model Adoption**: Successfully implemented XGBoost using documentation and GridSearch, despite limited prior experience.
+- **Explainability**: Enhanced interpretability of Neural Networks using SHAP values.
+
+---
+
+# 🧪 Results and Insights
+
+## Key Findings:
+
+### Model Performance:
+The **XGBoost model** demonstrated the highest accuracy (**92%**) and F1-score, making it the best-performing algorithm among the models tested (Logistic Regression, Neural Networks, and XGBoost).
+
+### Feature Importance:
+The top predictors of heart disease include:
+1. **Age**: Higher age groups show increased risk.
+2. **ST_Slope**: A flat or down-sloping ST segment strongly correlates with heart disease.
+3. **ChestPainType**: Asymptomatic cases exhibit the highest risk factor.
+4. **ExerciseAngina**: Strongly linked to higher disease likelihood.
+5. **Oldpeak**: ST depression during exercise was a significant indicator.
+
+---
+
+To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+
+--
 
 [![Forks](https://img.shields.io/github/forks/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/network/members)
 [![Contributors](https://img.shields.io/github/contributors/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/graphs/contributors)
