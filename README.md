@@ -7,11 +7,33 @@
 
 ![Heart](https://blog.bswhealth.med/wp-content/uploads/2019/06/thoracic-aorta-2000x1200.jpg)
 
-## 🔍 Research Question
-> Would demographic and baseline patient data be able to predict heart disease without performing stress tests?
+## 🔍 Business Question
+> Can heart failure be accurately predicted using only demographic and baseline pre-stress test data, without the need to conduct exercise stress tests? The goal is to explore whether machine learning models can predict heart disease risk by utilizing only basic data available prior to stress testing.
+
+## Why Address This Problem?
+
+#### Potential Value to Predict Heart Failure Without Stress Tests
+
+Using only basic patient data, early screening could help identify high-risk patients who need to be prioritized for stress tests. This could make heart disease screening more accessible, especially in resource-limited settings.
+
+#### Value for the Patient
+
+Stress tests can be physically demanding, particularly for patients at higher risk for arrhythmias or cardiac events during the test. By predicting heart failure using baseline data, the physical and emotional burden is reduced, and the time to diagnosis is shortened. This approach allows for proactive interventions and lifestyle changes that can potentially reduce the progression of heart disease.
+
+For Canadians in remote or underserved areas where exercise stress testing might not be available, heart disease could be identified through routine physical examinations, enhancing healthcare access.
+
+#### Value for the Healthcare Provider
+
+A reduction in the need for non-invasive cardiac diagnostic tests (NITs) improves the efficiency of healthcare providers, particularly physicians. They can use baseline data models for quick preliminary screening, saving time for acute cases. Additionally, developing a machine learning model to predict heart failure provides data-driven insights, improving decision-making and quality of care.
+
+#### Value for the Healthcare System
+
+In Ontario, around 500,000 NITs are performed annually, costing approximately C$300 million. Over half of these are exercise stress tests. If machine learning models can reduce the overuse of NITs while maintaining high-quality care, significant financial and logistical benefits could be achieved.
+
+---
 
 ## 🎯 Project Overview
-This project analyzes a dataset containing 11 clinical features to predict heart disease events. Our goal is to develop a machine learning model that can effectively predict heart disease risk using only basic patient data, making screening more accessible.
+This project analyzes a dataset containing clinical and demographic features to predict heart disease events. The goal is to create a machine learning model capable of predicting the likelihood of heart disease using only basic patient data, improving accessibility to heart disease screening and potentially reducing mortality rates.
 
 ## 📊 Dataset
 We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data) which includes:
@@ -36,19 +58,16 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 
 ```markdown
 |-- data
-|   |-- processed
-|   |-- raw
-|   |-- sql
+|   |-- processed     
+|   |-- raw           
 |-- experiments
-|   |-- model_development
+|   |-- model_development  
 |-- models
-|   |-- logistic_regression
-|   |-- neural_networks
-|   |-- xgboost
+|   |-- logistic_regression  
+|   |-- neural_networks      
+|   |-- xgboost            
 |-- reports
-|   |-- figures
-|-- README.md
-|-- environment.yml
+|   |-- figures   
 ```
 
 ## 🏁 Setup Instructions
