@@ -148,7 +148,7 @@ We found that utilizing all features provided better accuracy than only using ba
 - Off all the models, the best model for predicting heart disease is XGBoost using all features and with parameters colsample_bytree=0.8, learning_rate=0.1, max_depth=5, n_estimators=50, and subsample=0.8
 - Using SHAP on our best model to determine how each feature contributes to the prediction, we see that stress test features such as ST_Slope, ChestPainType, and ExerciseAngina_N are the most significant; therefore, reaffirming their clinical relevance.
 
-  ![SHAP values plot for all features](/shap_values_all_features.png)
+  ![SHAP values plot for all features](figures/shap_values_all_features.png)
 
 Although using all features provides the best accuracy and recall scores, the best model using only baseline data still yielded accuracy and recall scores of 80 and 79, respectively. For Canadians who face challenges in accessing exercise stress testing, diagnosis through routine physical examination can still be performed, albeit with lower accuracy and recall scores.
 
