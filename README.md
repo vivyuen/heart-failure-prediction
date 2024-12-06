@@ -129,7 +129,7 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 
 ---
 
-# 🧪 Results and Insights
+## 🧪 Results and Insights
 
 ### Model Performance:
 The **XGBoost model** demonstrated the highest accuracy (**92%**) and F1-score, making it the best-performing algorithm among the models tested (Logistic Regression, Neural Networks, and XGBoost).
@@ -143,6 +143,12 @@ The top predictors of heart disease include:
 5. **Oldpeak**: ST depression during exercise was a significant indicator.
 
 ---
+
+## 🎧 Project Overview Audio
+
+Listen to the project report:
+
+[Heart Failure Project Report (1).webm](https://github.com/user-attachments/assets/01166a0f-4904-4a25-a02c-82e5ada6d6c6)
 
 ## To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
 
