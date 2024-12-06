@@ -28,6 +28,8 @@
 ## 🎯 Project Overview
 This project analyzes a dataset containing clinical and demographic features to predict heart disease events. The goal is to create a machine learning model capable of predicting the likelihood of heart disease using only basic patient data, improving accessibility to heart disease screening and potentially reducing mortality rates.
 
+---
+
 ## 📊 Dataset
 We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data) which includes:
 * 11 clinical features (2 demographic and 9 medical measurements)
@@ -62,6 +64,8 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 |-- reports
 |   |-- figures   
 ```
+
+---
 
 ## 🏁 Setup Instructions
 
@@ -127,8 +131,6 @@ People with cardiovascular disease or at high cardiovascular risk (due to the pr
 
 # 🧪 Results and Insights
 
-## Key Findings:
-
 ### Model Performance:
 The **XGBoost model** demonstrated the highest accuracy (**92%**) and F1-score, making it the best-performing algorithm among the models tested (Logistic Regression, Neural Networks, and XGBoost).
 
@@ -142,9 +144,9 @@ The top predictors of heart disease include:
 
 ---
 
-To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+## To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
 
---
+---
 
 [![Forks](https://img.shields.io/github/forks/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/network/members)
 [![Contributors](https://img.shields.io/github/contributors/sehroz/heart-failure-prediction)](https://github.com/sehroz/heart-failure-prediction/graphs/contributors)
