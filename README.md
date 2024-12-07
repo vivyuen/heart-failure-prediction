@@ -144,6 +144,21 @@ The top predictors of heart disease include:
 
 ---
 
+## 📊 Data Analysis & Results
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; overflow-x: auto; margin: 20px 0;">
+   <img src="reports/figures/age_distribution.png" alt="Age Distribution" height="50"/>
+   <img src="reports/figures/gender_distribution.png" alt="Gender Distribution" height="50"/>
+   <img src="reports/figures/correlation_heatmap.png" alt="Correlation Heatmap" height="50"/>
+   <img src="reports/figures/lr_feature_importance_baseline.png" alt="Baseline Feature Importance" height="50"/>
+   <img src="reports/figures/lr_feature_importance_all.png" alt="All Features Importance" height="50"/>
+   <img src="reports/figures/roc_curve_baseline.png" alt="ROC Curve Baseline" height="50"/>
+   <img src="reports/figures/roc_curve_all_features.png" alt="ROC Curve All Features" height="50"/>
+   <img src="reports/figures/shap_values_all_features.png" alt="SHAP Values Analysis" height="50"/>
+</div>
+
+---
+
 ## 🎧 Project Overview Audio
 
 Listen to the project report:
