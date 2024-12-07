@@ -54,7 +54,7 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
   <a href="https://sehroz.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="Website" height="20"></a>**
 - **[Vivien Yuen](https://github.com/vivyuen)**
 
----
+--
 
 ## 🏗️ Project Folder Structure
 
@@ -151,13 +151,35 @@ The top predictors of heart disease include:
 
 ---
 
+## 📊 Data Analysis & Results
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; overflow-x: auto; margin: 20px 0;">
+   <img src="reports/figures/age_distribution.png" alt="Age Distribution" height="50"/>
+   <img src="reports/figures/gender_distribution.png" alt="Gender Distribution" height="50"/>
+   <img src="reports/figures/correlation_heatmap.png" alt="Correlation Heatmap" height="50"/>
+   <img src="reports/figures/lr_feature_importance_baseline.png" alt="Baseline Feature Importance" height="50"/>
+   <img src="reports/figures/lr_feature_importance_all.png" alt="All Features Importance" height="50"/>
+   <img src="reports/figures/roc_curve_baseline.png" alt="ROC Curve Baseline" height="50"/>
+   <img src="reports/figures/roc_curve_all_features.png" alt="ROC Curve All Features" height="50"/>
+   <img src="reports/figures/shap_values_all_features.png" alt="SHAP Values Analysis" height="50"/>
+</div>
+
+---
+
 ## 🎧 Project Overview Audio
 
 Listen to the project report:
 
 [Heart Failure Project Report (1).webm](https://github.com/user-attachments/assets/01166a0f-4904-4a25-a02c-82e5ada6d6c6)
 
-## To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+
+---
+
+## 🎥 Project Video
+
+## [Sehroz Khan: Video](https://drive.google.com/file/d/1pRQOlk_Dy2iykZyWfIYfJ85DiYqEu5u5/view?usp=drive_link)
+## [Calen Lau: Video].(https://1drv.ms/v/c/42d723503c0d79fe/EezWu4Ir16BNureapc3NyeQByXwRV8TmCHuu9V0iU0cXeg?e=EcKtmb).
 
 ---
 
