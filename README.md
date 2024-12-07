@@ -49,6 +49,12 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 
 ---
 
+## 🎥 Project Video
+
+[Sehroz: Video](https://drive.google.com/file/d/1pRQOlk_Dy2iykZyWfIYfJ85DiYqEu5u5/view?usp=drive_link)
+
+--
+
 ## 🏗️ Project Folder Structure
 
 ```markdown
