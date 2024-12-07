@@ -47,12 +47,6 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
   <a href="https://sehroz.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="Website" height="20"></a>**
 - **[Vivien Yuen](https://github.com/vivyuen)**
 
----
-
-## 🎥 Project Video
-
-[Sehroz: Video](https://drive.google.com/file/d/1pRQOlk_Dy2iykZyWfIYfJ85DiYqEu5u5/view?usp=drive_link)
-
 --
 
 ## 🏗️ Project Folder Structure
@@ -171,7 +165,13 @@ Listen to the project report:
 
 [Heart Failure Project Report (1).webm](https://github.com/user-attachments/assets/01166a0f-4904-4a25-a02c-82e5ada6d6c6)
 
-## To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+To learn more about our methodology, results, and insights, view the complete [**project report**](https://github.com/sehroz/heart-failure-prediction/tree/main/reports).
+
+---
+
+## 🎥 Project Video
+
+## [Sehroz Khan: Video](https://drive.google.com/file/d/1pRQOlk_Dy2iykZyWfIYfJ85DiYqEu5u5/view?usp=drive_link)
 
 ---
 
