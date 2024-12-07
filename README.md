@@ -37,6 +37,12 @@ We are using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datas
 
 ---
 
+## Project Video Demo
+[Vivien Yuen: Video Pt 1](https://youtu.be/9XJZShHdP_A)
+[Vivien Yuen: Video Pt 2](https://youtu.be/JAwdWLbLR7U)
+
+---
+
 ## 👥 Team Members
 
 - **[Alfredo Natal](https://github.com/asnjunior)**
